@@ -50,7 +50,7 @@ jobs:
         - name: Checkout GnuCash
           uses: actions/checkout@v7
           with:
-            repository: gnucash/gnucash
+            repository: christopherlam/gnucash
             ref: future
             path: gnucash-git
 
